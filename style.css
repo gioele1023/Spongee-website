@@ -85,3 +85,29 @@ background: linear-gradient(135deg, rgb(8, 35, 62), rgb(200, 210, 10)) !importan
     object-fit: cover;
     border-radius: 50%;
 }
+    /* Kontakt */
+
+    #kontakt {
+    background-color: white;
+    }
+
+    #kontakt form {
+    max-width: 700px;
+    margin: 0 auto;
+    }
+
+    #kontakt h2 {
+    text-align: center;
+    }
+
+    .form-control {
+    padding: 12px;
+    }
+
+    #kontakt textarea {
+    resize: none;
+    }
+
+    .btn {
+    padding: 10px 25px;
+    }
