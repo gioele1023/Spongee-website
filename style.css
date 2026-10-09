@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(8, 35, 62);
+    color: rgb(255, 251, 251);
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1,
+h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Navigation */
+
+.navbar {
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+.navbar {
+background: linear-gradient(135deg, rgb(8, 35, 62), rgb(200, 210, 10)) !important;
+}
+
+/* Geschichte von Spongee*/
+
+#ueber-mich {
+    background-color: #fbfafa;
+    text-align: center;
+}
+
+#ueber-mich p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Produkte */
+
+#produkt {
+    background-color: #f4f6f8;
+}
+
+#produkt h2 {
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0 20px 20px rgba(248, 248, 248, 0.895);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #000000;
+    line-height: 1;
+}
+/* Logo */
+
+.logo {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
